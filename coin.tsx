@@ -2,33 +2,33 @@ import React from 'react';
 
 // Define the structure of a social media link
 export interface SocialMediaLink {
-  name: string
-  url: string
+  name: Digital Gold Hybrid
+  url: https://twitter.com/DigiHybrid
   icon: JSX.Element // JSX.Element since icons are React components
 }
 
 // Define the structure of a coin
 export interface Coin {
-  tokenName: string
-  tokenTicker: string
-  tokenAmount: string
-  nftAmount: string
-  tick: string
-  tokenDescription: string
-  bridgeContract: string
-  tokenContract: string
-  coinLogo: string // path to the logo image
-  socialMediaLinks: SocialMediaLink[]
-  nftToTokenSwapAmount: number
-  tokenToNftSwapAmount: number
-  decimals: number
+  tokenName: Digital Gold Hybrid
+  tokenTicker: DIGIBITS
+  tokenAmount: 10000000
+  nftAmount: 1000
+  tick: DIGIBITS
+  tokenDescription: Digital Gold - each brick form NFT contains 10000 DIGIBITS.
+  bridgeContract: 93fMjBHbDGq3FiMbTAgvCYr6uVKvoddEDqPCA3naUjF3
+  tokenContract: J3rL9Jhb6cRw1tR21cU36GC23dkaR4tDcP2Gufqo7vLM
+  coinLogo: https://nftstorage.link/ipfs/bafkreibhqpisuup3pgijtliv33jkilfrm652kuzpc3vdttj7v2at55xdai
+  socialMediaLinks: J3rL9Jhb6cRw1tR21cU36GC23dkaR4tDcP2Gufqo7vLM
+  nftToTokenSwapAmount: 1
+  tokenToNftSwapAmount: 10000
+  decimals: 9
   isToken22: boolean
-  taxBPS: number
+  taxBPS: 13
   isSplit?: boolean
-  creatorFee?: number
-  creatorFeeTreasury?: string
-  nftSupply?: number
-  nftMinted?: number
+  creatorFee?: 0.01
+  creatorFeeTreasury?: 0.001
+  nftSupply?: 1000
+  nftMinted?: 11
 }
 
 // Import icon components
